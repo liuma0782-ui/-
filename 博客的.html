@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客 - 张三的日常</title>
+    <style>
+        /* 基础样式 - 简洁现代 */
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; line-height: 1.6; }
+        header { background: #343a40; color: white; padding: 1rem; text-align: center; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .hero { background: #e9ecef; padding: 4rem 2rem; text-align: center; }
+        .hero h1 { font-size: 2.5rem; margin: 0; }
+        .hero p { font-size: 1.2rem; color: #555; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+        section { margin-bottom: 3rem; }
+        h2 { border-bottom: 2px solid #007bff; padding-bottom: 0.5rem; }
+        .about img { width: 150px; border-radius: 50%; float: left; margin-right: 1rem; }
+        .posts article { background: white; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .posts h3 { margin-top: 0; }
+        .posts time { color: #666; font-size: 0.9rem; }
+        footer { background: #343a40; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+        @media (max-width: 768px) { .about img { float: none; display: block; margin: 0 auto 1rem; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home">首页</a>
+            <a href="#about">关于我</a>
+            <a href="#posts">博客文章</a>
+            <a href="#contact">联系</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>欢迎来到我的个人博客</h1>
+        <p>分享生活、技术、随笔 | 张三的日常记录</p>
+    </section>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>关于我</h2>
+            <img src="https://via.placeholder.com/150" alt="我的头像">
+            <p>你好！我是小马，一名前端开发者/设计师，热爱编程、摄影和旅行。这个博客用来记录我的学习心得、生活感悟和技术分享。</p>
+            <p>技能：HTML/CSS/JavaScript、Python、摄影等。</p>
+        </section>
+
+        <section class="posts" id="posts">
+            <h2>最新文章</h2>
+            
+            <article>
+                <h3>2025 年前端开发趋势</h3>
+                <time>2025-12-10</time>
+                <p>探讨 AI 在前端的应用、WebAssembly 的普及以及更高效的框架...</p>
+                <a href="#">阅读更多 →</a>
+            </article>
+            
+            <article>
+                <h3>我的旅行日记：去北京的周末</h3>
+                <time>2025-11-28</time>
+                <p>分享故宫、长城之旅，配上美照和心得...</p>
+                <a href="#">阅读更多 →</a>
+            </article>
+            
+            <article>
+                <h3>如何搭建个人博客</h3>
+                <time>2025-11-15</time>
+                <p>从零开始，用纯 HTML/CSS 搭建静态博客的完整教程...</p>
+                <a href="#">阅读更多 →</a>
+            </article>
+        </section>
+
+    </div>
+
+    <footer id="contact">
+        <p>&copy; 2025 小马的博客 | 邮箱: example@email.com | <a href="#" style="color: #fff;">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
